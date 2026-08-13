@@ -1,0 +1,19 @@
+{
+	"name": "@example/revenge-plugins",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "bunx revenge-plugin build"
+	},
+	"dependencies": {
+		"@revenge-mod/plugin-cli": "git+https://github.com/revenge-mod/revenge-plugin-cli.git",
+		"@revenge-mod/types": "git+https://github.com/revenge-mod/revenge-types.git"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.17",
+		"typescript": "^7.0.2"
+	},
+	"trustedDependencies": [
+		"@swc/core"
+	]
+}
