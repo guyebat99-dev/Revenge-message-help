@@ -1,0 +1,19 @@
+{
+	"format": 1,
+	"id": "com.yourname.message-tools",
+	"name": "Message Tools",
+	"description": "Text size formatting and Discord timestamp inserter.",
+	"author": "Your Name",
+	"version": "1.0.0",
+	"dependencies": {
+		"revenge.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
