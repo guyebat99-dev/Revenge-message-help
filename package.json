@@ -1,0 +1,22 @@
+{
+	"name": "@example/revenge-plugins",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "node --experimental-strip-types ./node_modules/@revenge-mod/plugin-cli/src/main.ts build",
+		"generate-index": "node --experimental-strip-types ./node_modules/@revenge-mod/plugin-cli/src/main.ts generate-index",
+		"serve": "node --experimental-strip-types ./node_modules/@revenge-mod/plugin-cli/src/main.ts serve"
+	},
+	"dependencies": {
+		"@revenge-mod/plugin-cli": "git+https://github.com/revenge-mod/revenge-plugin-cli.git",
+		"@revenge-mod/types": "git+https://github.com/revenge-mod/revenge-types.git"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.17",
+		"react-native": "0.81.6",
+		"typescript": "^7.0.2"
+	},
+	"trustedDependencies": [
+		"@swc/core"
+	]
+}
